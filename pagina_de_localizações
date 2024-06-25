@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa com Ponto em Mossoró</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Pagina Inicial</a></li>
+                <li><a href="#">Noticias</a></li>
+            </ul>
+            <img src="imgs/JM DIOCESE LOGO.png" alt="logo" width="40">
+            <ul>
+                <li><a href="#">Marque uma Implantação</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
